@@ -1,5 +1,5 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/yushixin1024
+ * UPDATES AND DOCS AT: https://github.com/yushixin-1024
  * https://www.cnblogs.com/yushixin1024/
  * @author: BNDong, dbnuo@foxmail.com
  * ----------------------------------------------

@@ -54,6 +54,6 @@
 
 # Author
 
-**Cnblogs-Theme-SimpleMemory** © [BNDong](https://github.com/yushixin1024), Released under the [MIT](./LICENSE) License.<br>
+**Cnblogs-Theme-SimpleMemory** © [BNDong](https://github.com/yushixin-1024), Released under the [MIT](./LICENSE) License.<br>
 
-> Blog [@Blog](https://www.cnblogs.com/yushixin1024/) · GitHub [@GitHub](https://github.com/yushixin1024) · Email dbnuo@foxmail.com
+> Blog [@Blog](https://www.cnblogs.com/yushixin1024/) · GitHub [@GitHub](https://github.com/yushixin-1024) · Email dbnuo@foxmail.com

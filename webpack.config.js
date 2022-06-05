@@ -26,7 +26,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         filename: 'simpleMemory.js',
-        chunkFilename:'script/[name].[hash:8].js',
+        chunkFilename:'script/[name].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },

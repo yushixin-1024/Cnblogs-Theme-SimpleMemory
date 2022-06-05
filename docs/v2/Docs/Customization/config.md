@@ -1141,7 +1141,7 @@ window.cnblogsConfig = {
 window.cnblogsConfig = {
     consoleList: [
          ['BNDong CNBlogs', 'https://www.cnblogs.com/bndong'],
-         ['BNDong GitHub', 'https://github.com/yushixin1024'],
+         ['BNDong GitHub', 'https://github.com/yushixin-1024'],
          ['BNDong Email', 'dbuo@foxmail.com'],
     ],
 }
