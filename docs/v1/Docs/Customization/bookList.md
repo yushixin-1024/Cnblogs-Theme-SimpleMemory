@@ -2,7 +2,7 @@
 
 ?> 版本 >= v1.2.3
 
-该功能是在```v1.2.3```添加的，样式参考：[https://www.cnblogs.com/bndong/p/10300036.html](https://www.cnblogs.com/bndong/p/10300036.html)
+该功能是在```v1.2.3```添加的，样式参考：[https://www.cnblogs.com/yushixin1024/p/10300036.html](https://www.cnblogs.com/yushixin1024/p/10300036.html)
 
 > v1.3.3 新增评级属性
 

@@ -1,6 +1,6 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
+ * UPDATES AND DOCS AT: https://github.com/yushixin1024
+ * https://www.cnblogs.com/yushixin1024/
  * @author: BNDong, dbnuo@foxmail.com
  * ----------------------------------------------
  * @describe: 文章信息处理

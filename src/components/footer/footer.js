@@ -1,6 +1,6 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
+ * UPDATES AND DOCS AT: https://github.com/yushixin1024
+ * https://www.cnblogs.com/yushixin1024/
  * @author: BNDong, dbnuo@foxmail.com
  * ----------------------------------------------
  * @describe: footer
@@ -102,8 +102,8 @@ export default function main(_) {
      */
     (() => {
         window.setInterval( () => {
-            let runDate = _.__tools.getRunDate(_.__config.info.startDate ? _.__config.info.startDate : '2021-01-01');
-            $('#blogRunTimeSpan').text('This blog has running : '+runDate.daysold+' d '+runDate.hrsold+' h '+runDate.minsold+' m '+runDate.seconds+' s');
+            let runDate = _.__tools.getRunDate(_.__config.info.startDate ? _.__config.info.startDate : '2022-06-06');
+            $('#blogRunTimeSpan').text('This Blog Has Running : '+runDate.daysold+' 天 '+runDate.hrsold+' 小时 '+runDate.minsold+' 分钟 '+runDate.seconds+' 秒');
         }, 500 );
     })();
 

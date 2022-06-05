@@ -1,6 +1,6 @@
 # 书单
 
-样式参考：[https://www.cnblogs.com/bndong/p/10300036.html](https://www.cnblogs.com/bndong/p/10300036.html)
+样式参考：[https://www.cnblogs.com/yushixin1024/p/10300036.html](https://www.cnblogs.com/yushixin1024/p/10300036.html)
 
 ## 配置方式
 

@@ -1,6 +1,8 @@
+# 本项目源码fork from [https://github.com/BNTang](https://github.com/BNTang)
+
 # 友链
 
-样式参考：[https://www.cnblogs.com/bndong/p/14708992.html](https://www.cnblogs.com/bndong/p/14708992.html)
+样式参考：[https://www.cnblogs.com/yushixin1024](https://www.cnblogs.com/yushixin1024)
 
 ## 配置方式
 
@@ -52,42 +54,6 @@ window.cnblogsConfig = {
 
     // 友链配置
     window.cnblogsConfig.links.page = [
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
-      {
-        name: 'BNDong',
-        introduction: 'IT技术类博客',
-        avatar: 'https://blog.dbnuo.com/images/avatar.gif',
-        url: 'https://blog.dbnuo.com'
-      },
       {
         name: 'BNDong',
         introduction: 'IT技术类博客',

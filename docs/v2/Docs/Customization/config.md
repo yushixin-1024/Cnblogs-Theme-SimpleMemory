@@ -121,8 +121,8 @@ window.cnblogsConfig = {
 window.cnblogsConfig = {
   sidebar: { // 列表数据 ['导航名称', '链接', 'icon']
     navList: [
-        ['我的博客1', 'https://www.cnblogs.com/bndong/', 'icon-github'],
-        ['我的博客2', 'https://www.cnblogs.com/bndong/', 'icon-github'],
+        ['我的博客1', 'https://www.cnblogs.com/yushixin1024/', 'icon-github'],
+        ['我的博客2', 'https://www.cnblogs.com/yushixin1024/', 'icon-github'],
     ],
   },
 }
@@ -142,21 +142,21 @@ window.cnblogsConfig = {
     customList: {
         "title1": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客1', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客2', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客3', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客4', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客5', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客1', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客2', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客3', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客4', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客5', 'https://www.cnblogs.com/yushixin1024/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
         "title2": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客6', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客7', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客8', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客9', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客10', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客6', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客7', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客8', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客9', 'https://www.cnblogs.com/yushixin1024/'],
+                ['我的博客10', 'https://www.cnblogs.com/yushixin1024/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
@@ -1141,7 +1141,7 @@ window.cnblogsConfig = {
 window.cnblogsConfig = {
     consoleList: [
          ['BNDong CNBlogs', 'https://www.cnblogs.com/bndong'],
-         ['BNDong GitHub', 'https://github.com/BNDong'],
+         ['BNDong GitHub', 'https://github.com/yushixin1024'],
          ['BNDong Email', 'dbuo@foxmail.com'],
     ],
 }

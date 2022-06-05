@@ -1,0 +1,328 @@
+<script type="text/javascript">
+    window.cnblogsConfig = {
+        // 字体图标库
+        fontIconExtend: "https://cnblogs-theme-simplememory.oss-cn-hangzhou.aliyuncs.com/dist/style/fonticon.b054622b.css",
+        // 顶部进度条
+        progressBar: {
+            // 请勿修改该值
+            id: 'top-progress-bar',
+            color: '#77b6ff',
+            height: '2px',
+            duration: 0.2,
+        },
+        // 标题
+        title: {
+            onblurTime: -1,
+            focusTime: -1
+        },
+        // 页脚配置
+        footer: {
+            // 页脚样式
+            style: 2,
+            // 页脚标语
+            text: {
+                left: '银鞍照白马',
+                right: '飒沓如流星',
+                iconFont: {
+                    icon:  "icon-book",
+                    color: "red",
+                    fontSize: "16px"
+                }
+            },
+        },
+        // 加载Loading
+        loading: {
+            rebound: {
+                tension: 16,
+                friction: 5,
+            },
+            spinner: {
+                id: 'spinner',
+                radius: 90,
+                sides: 3,
+                depth: 4,
+                colors: {
+                    background: '#f0f0f0',
+                    stroke: '#272633',
+                    base: null,
+                    child: '#272633',
+                },
+                // When false the spring will reverse normally.
+                alwaysForward: true,
+                // A number from 0.1 to 0.9 || null for full rotation
+                restAt: 0.5,
+                renderBase: false,
+            }
+        },
+        // 基础信息
+        info: {
+            // 用户名[默认抓取博客园用户名]
+            name: 'Yu Shi xin',
+            // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+            startDate: '2022-06-06',
+            // 用户头像
+            avatar: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/cnblogs_head.webp',
+            // 网站图标
+            blogIcon: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/cnblogs_head.webp'
+        },
+        // 侧边栏
+        sidebar: {
+            // 菜单导航
+            navList: [
+                ['我的博客1', 'https://www.cnblogs.com/bndong/', 'icon-github'],
+                ['我的博客2', 'https://www.cnblogs.com/bndong/', 'icon-github'],
+            ],
+            // 菜单数据
+            customList: {
+                "title1": {
+                    "data": [
+                        ['我的博客1', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客2', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客3', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客4', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客5', 'https://www.cnblogs.com/bndong/'],
+                    ],
+                    "icon": "icon-brush_fill"
+                },
+                "title2": {
+                    "data": [
+                        ['我的博客6', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客7', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客8', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客9', 'https://www.cnblogs.com/bndong/'],
+                        ['我的博客10', 'https://www.cnblogs.com/bndong/'],
+                    ],
+                    "icon": "icon-brush_fill"
+                },
+            },
+            // 侧边栏个人信息背景
+            infoBackground: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/sidebar_bg_01.webp',
+            // 侧边栏标题信息
+            titleMsg: '欢迎访问本博客~',
+        },
+        // Banner配置
+        banner: {
+            // 主页配置
+            home: {
+                // 主页背景图片
+                background: [
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_top_bg_01.webp",
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_top_bg_02.webp",
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_top_bg_03.webp",
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_top_bg_04.webp",
+                ],
+                // 主页标题
+                title: [
+                    '心之所向，璀璨远方。\r\nWhere the heart is, brilliant far away.'
+                ],
+                // Banner标语获取源[jinrishici:每次刷新随机获取一句古诗词, one:每日获取一句话]
+                // titleSource: 'jinrishici',
+            },
+            // 文章页配置
+            article: {
+                // Banner背景图片
+                background: [
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_bg_01.webp",
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_bg_02.webp",
+                    "https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/home_bg_03.webp",
+                ],
+            },
+        },
+        // 右下角菜单
+        rtMenu: {
+            // 二维码
+            qrCode: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/qr_wechat.webp',
+            // 赞赏
+            reward: {
+                // 支付宝收款码
+                alipay: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/qr_ali_pay.webp',
+                // 微信收款码
+                wechatpay: 'https://yushixin-images.oss-cn-hangzhou.aliyuncs.com/qr_wechat_pay.webp'
+            },
+            // 跳至底部位置定义
+            downScrollDom: '#blog_post_info_block',
+        },
+        // 日/夜间模式配置[页面使用日/夜间模式优先级：用户设置>自动切换>默认]
+        switchDayNight: {
+            // 是否开启日/夜间模式切换按钮
+            enable: true,
+            // 强制夜间模式
+            nightMode: false,
+            auto: {
+                // 开启自动切换
+                enable: true,
+                // 日间模式开始时间，整数型，24小时制
+                dayHour: 6,
+                // 夜间模式开始时间，整数型，24小时制
+                nightHour: 19
+            }
+        },
+        // 动效
+        animate: {
+            // 主页Banner动效
+            homeBanner: {
+                enable: true,
+                options: {
+                    radius: 15,
+                    density: 0.2,
+                    color: 'rgba(255,255,255, .2)', // 颜色设置，“random” 为随机颜色
+                    clearOffset: 0.3
+                }
+            },
+            // 文章页标题动效
+            articleTitle: {
+                enable: true,
+            },
+            // 文章页Banner动效
+            articleBanner: {
+                enable: true,
+            },
+            // 背景动效
+            background: {
+                enable: true,
+                options: {
+                    colorSaturation: "60%",
+                    colorBrightness: "50%",
+                    colorAlpha: 0.5,
+                    colorCycleSpeed: 5,
+                    verticalPosition: "random",
+                    horizontalSpeed: 200,
+                    ribbonCount: 3,
+                    strokeSize: 0,
+                    parallaxAmount: -0.2,
+                    animateSections: true
+                }
+            },
+            // Banner背景图自动切换动效
+            bannerImages: {
+                enable: true,
+                options: {
+                    // 图片拆分成几列
+                    itemNum: 5,
+                    // 初始图片的下标，如果为负数则为随机
+                    current: 0,
+                    // 1:代表每次向下加载一个图片，-1:代表每次向上加载一个图片
+                    sort: 1,
+                    // 每次切换间隔时间，单位:毫秒
+                    time: 30000
+                }
+            },
+            // 背景鼠标动效
+            backgroundMouse: {
+                enable: true,
+            },
+            // 鼠标动效
+            mouse: {
+                enable: false,
+                options: {
+                    // 中心圆点的大小，单位 px
+                    size: 8,
+                    // 外部边框的大小，单位 px
+                    sizeF: 36
+                }
+            }
+        },
+        // 代码
+        code: {
+            // 渲染类型[cnblogs:博客园默认代码高亮样式, hljs:使用Highlighting插件渲染代码高亮样式]
+            type: 'hljs',
+            options: {
+                // 开启行号显示
+                line: true,
+                // Mac风格代码框样式
+                macStyle: true,
+                // 代码框高度限制[70vh,70%]
+                maxHeight: '70%',
+                // 代码渲染插件配置
+                hljs: {
+                    /** 所有可配置项
+                     default、a11y-dark、a11y-light、agate、an-old-hope、androidstudio、arduino-light、arta、ascetic
+                     、atelier-cave-dark、atelier-cave-light、atelier-dune-dark、atelier-dune-light、atelier-estuary-dark
+                     、atelier-estuary-light、atelier-forest-dark、atelier-forest-light、atelier-heath-dark
+                     、atelier-heath-light、atelier-lakeside-dark、atelier-lakeside-light、atelier-plateau-dark、atelier-plateau-light
+                     、atelier-savanna-dark、atelier-savanna-light、atelier-seaside-dark、atelier-seaside-light
+                     、atelier-sulphurpool-dark、atelier-sulphurpool-light、atom-one-dark-reasonable、atom-one-dark、atom-one-light
+                     、brown-paper、codepen-embed、color-brewer、darcula、dark、darkula、docco、dracula、far
+                     、foundation、github-gist、github、gml、googlecode、grayscale、gruvbox-dark、gruvbox-light、hopscotch
+                     、hybrid、idea、ir-black、isbl-editor-dark、isbl-editor-light、kimbie.dark、kimbie.light、lightfair
+                     、magula、mono-blue、monokai-sublime、monokai、nord、obsidian、ocean、paraiso-dark、paraiso-light、pojoaque
+                     、purebasic、qtcreator_dark、qtcreator_light、railscasts、rainbow、routeros、school-book、shades-of-purple
+                     、solarized-dark、solarized-light、sunburst、tomorrow-night-blue、tomorrow-night-bright
+                     、tomorrow-night-eighties、tomorrow-night、tomorrow、vs、vs2015、xcode、xt256、zenburn
+                     */
+                    // 代码高亮主题
+                    theme: 'atom-one-dark-reasonable',
+                    // 语言识别范围[不限制]
+                    languages: []
+                },
+            },
+        },
+        // 文章
+        articleDirectory: {
+            // 目录位置
+            position: 'right',
+            // 目录隐藏宽度
+            minBodyWeight: 1000,
+            // 目录横向滚动条
+            autoWidthScroll: true,
+        },
+        // 文章后缀
+        articleSuffix: {
+            // 左侧图片
+            imgUrl: 'https://x1.jpg',
+            // 关于博主
+            aboutHtml: "I am a good person",
+            // 版权声明
+            copyrightHtml: "版权...",
+            // 声援博主
+            supportHtml: "声援...",
+        },
+        // 控制台输出
+        consoleList: [
+            ['YuShixin CNBlogs', 'https://www.cnblogs.com/yushixin1024'],
+            ['YuShixin GitHub', 'https://github.com/yushixin1024'],
+            ['YuShixin Email', '1605006939@qq.com'],
+        ],
+        // 网站统计
+        // cnzz: "123456",
+    };
+
+    // 友链配置
+    /* <input id="linkListFlg" type="hidden" /> */
+/*    window.cnblogsConfig.links.page = [
+        {
+            name: 'BNDong',
+            introduction: 'IT技术类博客',
+            avatar: 'https://blog.dbnuo.com/images/avatar.gif',
+            url: 'https://blog.dbnuo.com'
+        },
+        {
+            name: 'BNDong',
+            introduction: 'IT技术类博客',
+            avatar: 'https://blog.dbnuo.com/images/avatar.gif',
+            url: 'https://blog.dbnuo.com'
+        }
+    ];*/
+
+    // 钩子配置
+    window.cnblogsConfig.hooks = {
+
+        beforeCode: (_) => {
+            // console.log('code 渲染开始前');
+        },
+        afterCode: (_) => {
+            // console.log('code 渲染结束后');
+        },
+        beforeLoading: (_) => {
+            // console.log('loading 开始前');
+        },
+        afterLoading: (_) => {
+            // console.log('loading 结束后');
+        },
+        dayNightControl: (_, type) => {
+            // console.log(type);
+            // console.log('日/夜间模式');
+        },
+    };
+</script>
+<script src="https://cnblogs-theme-simplememory.oss-cn-hangzhou.aliyuncs.com/dist/simpleMemory.js" defer></script>

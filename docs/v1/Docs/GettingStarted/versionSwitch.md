@@ -16,7 +16,7 @@ v1.\*.* 之间切换版本比较简便。
 
 ### 切换代码版本
 
-进入主题仓库：[GitHub](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+进入主题仓库：[GitHub](https://github.com/yushixin-1024/Cnblogs-Theme-SimpleMemory)
 
 切换版本：
 

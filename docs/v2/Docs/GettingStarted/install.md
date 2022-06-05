@@ -31,11 +31,11 @@
 
 本主题当前页面所涉及的配置有：
 
-- 控件显示设置/公告 [#86](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/issues/86)
+- 控件显示设置/公告 [#86](https://github.com/yushixin-1024/Cnblogs-Theme-SimpleMemory/issues/86)
 
 ## 获取需要使用的版本
 
-进入主题仓库：[GitHub](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+进入主题仓库：[GitHub](https://github.com/yushixin-1024/Cnblogs-Theme-SimpleMemory)
 
 切换版本：
 
