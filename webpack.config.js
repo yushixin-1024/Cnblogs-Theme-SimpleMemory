@@ -90,6 +90,11 @@ module.exports = {
                     minimize: true,
                 },
             },
+            {
+                test: /(\.(eot|ttf|woff|woff2|otf)|font)$/,
+                loader: 'file-loader',
+                options: { outputPath: 'fonts/' }
+            }
         ],
     },
 };

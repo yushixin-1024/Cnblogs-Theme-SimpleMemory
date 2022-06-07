@@ -51,7 +51,11 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "file-loader": "^6.2.0",
+    "gsap": "^3.10.4",
+    "lodash": "^4.17.21",
+    "open": "^8.4.0",
+    "url-loader": "^4.1.1"
   },
   "browserslist": {
     "development": [

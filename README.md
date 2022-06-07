@@ -1,6 +1,19 @@
 ```
-node.js安装命令
-D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js install --scripts-prepend-node-path=auto
+1.安装gulp命令
+npm install gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
+
+2.安装url-loader,file-loader
+npm install url-loader
+npm install file-loader
+
+3.安装gsap
+npm install gsap
+
+4.执行命令
+npm run dev
+
+5.执行命令
+gulp
 ```
 
 <div align="center">
