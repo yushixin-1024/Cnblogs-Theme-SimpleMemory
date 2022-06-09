@@ -346,12 +346,12 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(29,29,29,.8);
+    background-color: rgba(30,30,30,.9);
 }
 .container .menu-wrap .sidebar-header {
     padding: 10px 20px;
     display: flex;
-    font-style: italic;
+    font-style: normal;
     align-items: center;
 }
 .container .menu-wrap .close-button {
@@ -386,7 +386,7 @@ body{
     border-style: none;
 }
 .container .menu-wrap .sidebar-userinfo {
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     height: 75px;
     flex-direction: column;
@@ -645,7 +645,7 @@ body{
     animation: .5s ease-in-out alternate swing;
 }
 .container .menu-wrap .sidebar-menu .sidebar-dropdown-box .sidebar-dropdown-title {
-    font-size: 13px;
+    font-size: 16px;
     line-height: unset;
 }
 .container .menu-wrap .sidebar-menu .sidebar-submenu {
@@ -664,7 +664,7 @@ body{
 }
 .container .menu-wrap .sidebar-menu .sidebar-submenu ul>li {
     padding-left: 25px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .container .menu-wrap .sidebar-menu .sidebar-submenu ul>li>a {
     display: inline-block;
@@ -685,7 +685,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-right: 10px;
-    font-size: 13px;
+    font-size: 16px;
     position: absolute;
     left: 20px;
     font-family: iconfont!important;

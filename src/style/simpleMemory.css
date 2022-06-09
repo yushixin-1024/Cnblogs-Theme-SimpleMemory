@@ -2049,11 +2049,11 @@ div#tbCommentBodyPreview {
 }
 
 #sideBar {
-    font-size: 12px
+    font-size: 15px
 }
 
 #sideBar h3 {
-    font-size: 14px
+    font-size: 16px
 }
 
 #cnblogs_post_body img {
@@ -2125,7 +2125,7 @@ div#tbCommentBodyPreview {
     animation: fade-in-down 1s both;
     -webkit-animation: fade-in-down 1s both;
     mix-blend-mode: screen;
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: Playball, cursive
 }
 
@@ -2149,7 +2149,7 @@ div#tbCommentBodyPreview {
 }
 
 #footer .footer-text, .page-description {
-    font-family: 'Long Cang', cursive
+    font-family: 'Ubuntu Mono', cursive
 }
 
 .sb-title {
@@ -2175,7 +2175,7 @@ div#tbCommentBodyPreview {
 }
 
 .page-description {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
     -webkit-animation: fade-in-down .9s;
     animation: fade-in-down .9s both;
     -webkit-animation-delay: .1s;

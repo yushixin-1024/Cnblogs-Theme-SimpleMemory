@@ -1,3 +1,4 @@
+// 生成simpleMemory.css
 let gulp = require('gulp');
 let minifycss = require('gulp-minify-css');
 

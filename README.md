@@ -4,11 +4,11 @@
 npm install gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
 
 2.安装url-loader,file-loader
-npm install url-loader
-npm install file-loader
+npm install url-loader -g
+npm install file-loader -g
 
 3.安装gsap
-npm install gsap
+npm install gsap -g
 
 4.执行命令
 npm run dev
