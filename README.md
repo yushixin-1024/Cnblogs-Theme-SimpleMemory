@@ -1,4 +1,5 @@
 ```
+PS：基于 https://github.com/BNDong/Cnblogs-Theme-SimpleMemory 新增自定义配置
 1.安装gulp命令
 npm install gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
 
@@ -69,8 +70,8 @@ gulp
     <img width=50 src="https://avatars2.githubusercontent.com/u/12370628?s=460&v=4"/>
 </a>
 
-# Author
+# 原Author
 
-**Cnblogs-Theme-SimpleMemory** © [BNDong](https://github.com/yushixin-1024), Released under the [MIT](./LICENSE) License.<br>
+**Cnblogs-Theme-SimpleMemory** © [BNDong](https://github.com/BNDong), Released under the [MIT](./LICENSE) License.<br>
 
-> Blog [@Blog](https://www.cnblogs.com/yushixin1024/) · GitHub [@GitHub](https://github.com/yushixin-1024) · Email dbnuo@foxmail.com
+> Blog [@Blog](https://www.cnblogs.com/bndong/) · GitHub [@GitHub](https://github.com/BNDong) · Email dbnuo@foxmail.com
