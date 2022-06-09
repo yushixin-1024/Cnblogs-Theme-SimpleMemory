@@ -1,5 +1,5 @@
+### PS：基于 https://github.com/BNDong/Cnblogs-Theme-SimpleMemory 新增自定义配置
 ```
-PS：基于 https://github.com/BNDong/Cnblogs-Theme-SimpleMemory 新增自定义配置
 1.安装gulp命令
 npm install gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
 
