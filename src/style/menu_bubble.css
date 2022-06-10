@@ -369,7 +369,7 @@ body{
 .container .menu-wrap .sidebar-profile {
     position: relative;
     z-index: 1000;
-    padding: 265px 1em 2em 0;
+    padding: 180px 1em 2em 0;
     border-top: 1px solid #2b2b2b;
 }
 .container .menu-wrap .user-pic {

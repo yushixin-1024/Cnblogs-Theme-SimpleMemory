@@ -102,7 +102,7 @@ html {
 body {
     background-color: #fff;
     font-size: 12px;
-    font-family: Merriweather, "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
+    font-family: Merriweather, "Noto Serif SC", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
     color: #3A4145;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
