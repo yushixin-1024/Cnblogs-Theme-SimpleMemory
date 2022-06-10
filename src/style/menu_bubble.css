@@ -354,6 +354,9 @@ body{
     font-style: normal;
     align-items: center;
 }
+.container .menu-wrap .sidebar-header .sidebar-title-msg {
+    font-size: 16px;
+}
 .container .menu-wrap .close-button {
     position: absolute;
     right: 10px;
@@ -364,8 +367,9 @@ body{
     color: #777;
 }
 .container .menu-wrap .sidebar-profile {
-    padding: 20px;
-    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+    padding: 265px 1em 2em 0;
     border-top: 1px solid #2b2b2b;
 }
 .container .menu-wrap .user-pic {
@@ -450,6 +454,7 @@ body{
     box-sizing: border-box;
     position: absolute;
     right: 0;
+    bottom: -5px;
     z-index: 1;
 }
 .container .menu-wrap .input-group-text {
@@ -524,6 +529,7 @@ body{
     text-align: center;
     height: 30px;
     position: static;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-content: center;
