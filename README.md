@@ -1,19 +1,27 @@
 ### PS：基于 https://github.com/BNDong/Cnblogs-Theme-SimpleMemory 新增自定义配置
 ```
-1.安装gulp命令
-npm install gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
+> 安装gulp命令
+npm install gulp gulp-less gulp-cssmin gulp-uglify gulp-concat gulp-connect gulp-imagemin gulp-minify-css open -g
 
-2.安装url-loader,file-loader
-npm install url-loader -g
-npm install file-loader -g
+> 安装url-loader,file-loader
+npm install url-loader file-loader -g
 
-3.安装gsap
+> 安装gsap
 npm install gsap -g
 
-4.执行命令
+> 安装webpack,webpack-cli
+npm install webpack webpack-cli --save-dev
+
+> 安装json5
+npm install json5 -g
+
+PS: 如果报" Error: Cannot find module 'xxx' ",缺少哪个模块就安装哪个模块
+    npm install xxx -g
+
+> 执行命令
 npm run dev
 
-5.执行命令
+> 执行命令(可能需要在Windows命令行窗口执行)
 gulp
 ```
 
