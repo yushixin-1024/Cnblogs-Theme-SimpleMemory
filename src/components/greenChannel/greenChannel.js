@@ -37,7 +37,7 @@ export default function main(_) {
     })();
 
     /**
-     * 收藏该文
+     * 收藏本文
      */
     (() => {
         _.__timeIds.greenChannelFavoriteTId = window.setInterval(() => {
@@ -50,26 +50,13 @@ export default function main(_) {
     })();
 
     /**
-     * 微博
-     */
-    (() => {
-        _.__timeIds.greenChannelWeiboTId = window.setInterval(() => {
-            let greenChannelWeibo = $('#green_channel_weibo');
-            if (greenChannelWeibo.length) {
-                greenChannelWeibo.after('<button class="custom-btn btn-15" onclick="' + greenChannelWeibo.attr('onclick') + '">分享微博</button>');
-                _.__tools.clearIntervalTimeId(_.__timeIds.greenChannelWeiboTId);
-            }
-        }, 1000);
-    })();
-
-    /**
      * 微信
      */
     (() => {
         _.__timeIds.greenChannelWechatTId = window.setInterval(() => {
             let greenChannelWechat = $('#green_channel_wechat');
             if (greenChannelWechat.length) {
-                greenChannelWechat.after('<button class="custom-btn btn-13" onclick="' + greenChannelWechat.attr('onclick') + '">分享微信</button>');
+                greenChannelWechat.after('<button class="custom-btn btn-13" onclick="' + greenChannelWechat.attr('onclick') + '">分享本文</button>');
                 _.__tools.clearIntervalTimeId(_.__timeIds.greenChannelWechatTId);
             }
         }, 1000);

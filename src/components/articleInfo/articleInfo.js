@@ -61,7 +61,7 @@ export default function main(_) {
             if (obj.length > 0) {
                 $.each(obj, (i) => {
                     let tag = $(obj[i]);
-                    tag.prepend('<span class="iconfont icon-marketing_fill"></span>');
+                    tag.prepend('<span class="iconfont icon-marketing_fill" style="position: relative; top: 2px;"></span>');
                     $('#articleInfo').append('<a href="'+tag.attr('href')+'" target="_blank"><span class="article-info-tag article-tag-class-color">'+(tag.text())+'</span></a>');
                 });
                 _.__tools.setDomHomePosition();

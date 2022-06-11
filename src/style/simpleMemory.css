@@ -722,11 +722,11 @@ p.article-info-text > .postMeta br {
     height: 20px;
     line-height: 20px;
     color: #fff !important;
-    padding: 3px 5px;
+    padding: 4px 4px 2px 0;
     border-radius: 3px;
     margin: 2px 5px 0;
     text-decoration: none;
-    font-size: 14px
+    font-size: 16px
 }
 
 #BlogPostCategory a:hover, #EntryTag a:hover {
