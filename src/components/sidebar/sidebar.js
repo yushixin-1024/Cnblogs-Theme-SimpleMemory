@@ -281,7 +281,9 @@ export default function main(_) {
                 if (ret.test(textArr[0])) textArr.splice(0,1);
                 let text = $.trim(textArr.join('.'));
                 o.length > 0 && o.html(text);
-                html += '<li>' + (o.length > 0 ?  o.prop("outerHTML") : '<a href="javascript:void(0);">' + text + '</a>' ) + '</li>';
+                if (!text) {
+                    html += '<li>' + (o.length > 0 ? o.prop("outerHTML") : '<a href="javascript:void(0);">' + text + '</a>' ) + '</li>';
+                }
             });
             html += '</ul>';
             return html;

@@ -361,7 +361,8 @@ body{
     position: absolute;
     right: 10px;
     top: 10px;
-    cursor:pointer
+    cursor:pointer;
+    z-index: 1001;
 }
 .container .menu-wrap .close-button i {
     color: #777;
