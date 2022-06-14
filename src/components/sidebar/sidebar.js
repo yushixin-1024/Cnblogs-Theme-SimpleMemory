@@ -272,17 +272,22 @@ export default function main(_) {
         }
 
         function getMenuData(obj) {
-            let html = '<ul>',
-                ret  = /^[1-9]+[0-9]*$/;
+            let html = '<ul>';
             obj.each((i) => {
-                let p = $(obj[i]),
-                    o = p.text() === p.html() ? {} : $(p.html()),
-                    textArr = $.trim(p.text()).split('.');
-                if (ret.test(textArr[0])) textArr.splice(0,1);
+                let p = $(obj[i]);
+                let ret  = /^[1-9]+[0-9]*$/;
+                let o = p.text() === p.html() ? {} : $(p.html());
+                let textArr = $.trim(p.text()).split('.');
+                if (ret.test(textArr[0])) {
+                    textArr.splice(0,1);
+                }
                 let text = $.trim(textArr.join('.'));
-                o.length > 0 && o.html(text);
-                if (!text) {
-                    html += '<li>' + (o.length > 0 ? o.prop("outerHTML") : '<a href="javascript:void(0);">' + text + '</a>' ) + '</li>';
+                if (o.length > 0 && !!text) {
+                    o.html(text);
+                }
+                if (!!text) {
+                    let li = '<li>' + (o.length > 0 ? o.prop("outerHTML") : '<a href="javascript:void(0);">' + text + '</a>' ) + '</li>';
+                    html += li;
                 }
             });
             html += '</ul>';
