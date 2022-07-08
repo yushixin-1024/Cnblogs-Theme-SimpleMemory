@@ -198,14 +198,22 @@ export default function main(_) {
                         if (ret.test(textArr[0])) textArr.splice(0,1);
                         let text = $.trim(textArr.join('.'));
                         o.length > 0 && o.html(text);
+                        // 评论主体内容
+                        let body_text = $(body[i]).text();
+                        // 替换评论主体内容中的'<','>','&lt;','&gt;','\'为' '(空格)
+                        body_text = body_text.replace(/</g, ' ');
+                        body_text = body_text.replace(/>/g, ' ');
+                        body_text = body_text.replace(/&lt;/g, ' ');
+                        body_text = body_text.replace(/&gt;/g, ' ');
+                        body_text = body_text.replace(/\\/g, ' ');
+                        // 评论人
+                        let author_text = $(author[i]).text();
                         html += '<li>' + (o.length > 0 ?  o.prop("outerHTML") : "<a href='javascript:void(0);'>" + text + "</a>")
-
                             + '<div class="sb-recent_comment_body">'
-                            + $(body[i]).text()
+                            + body_text
                             + '</div>'
-
                             + '<div class="sb-recent_comment_author">'
-                            + $(author[i]).text()
+                            + author_text
                             + '</div></li>';
                     });
                 }

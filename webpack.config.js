@@ -31,7 +31,7 @@ module.exports = {
         clean: true,
     },
     plugins: [
-        new fileManagerPlugin({
+        /*new fileManagerPlugin({
             events: {
                 onEnd: {
                     copy: [
@@ -39,10 +39,10 @@ module.exports = {
                     ],
                 }
             }
-        }),
+        }),*/
         new miniCssExtractPlugin({
-            filename: 'style/[name].[hash:8].css',
-            chunkFilename:'style/[name].[hash:8].css',
+            filename: 'style/[name].css',
+            chunkFilename:'style/[name].css',
         }),
     ],
     // devtool: 'inline-source-map',
