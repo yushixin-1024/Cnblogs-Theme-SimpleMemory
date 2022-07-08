@@ -28,7 +28,7 @@ export default function main(_) {
                     let op = $('#comment_' + id + '_avatar'), patch  = op.length > 0 ? $.trim(op.text())
                         : defaultAvatarImg;
 
-                    let ac = $('#a_comment_author_' + id), ah = ac.length ? ac.attr('href') : 'javascropt:void(0);';
+                    let ac = $('#a_comment_author_' + id), ah = ac.length ? ac.attr('href') : 'javascript:void(0);';
 
                     avatarHtml = '<div class="feedbackAvatar"><a href="' + ah + '" target="_blank"><img src="'+patch+'"/></a></div>';
                     obj.prepend(avatarHtml);

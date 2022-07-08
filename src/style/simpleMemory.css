@@ -57,6 +57,10 @@
     background-color: #555
 }
 
+.hljs-comment {
+    font-style:normal !important;
+}
+
 #mainContent, #sideBar, #topics {
     text-overflow: ellipsis;
     overflow: hidden
