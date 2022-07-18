@@ -3517,11 +3517,11 @@ table#blogCalendar > tbody > tr > td > a {
     transition: all .4s ease
 }
 
-#dayNightSwitch .onOff .daySwitch {
+#dayNightSwitch .onOff.daySwitch {
     border: 2px solid #52a6bf
 }
 
-#dayNightSwitch .onOff .daySwitch .sky {
+#dayNightSwitch .onOff.daySwitch .sky {
     width: 65px;
     height: 25px;
     border-radius: 25px;
@@ -3532,17 +3532,17 @@ table#blogCalendar > tbody > tr > td > a {
     animation: none !important
 }
 
-#dayNightSwitch .onOff .daySwitch .sunMoon {
+#dayNightSwitch .onOff.daySwitch .sunMoon {
     background: #ffdf61;
     border: 2px solid #d9b31c;
     left: calc(100% - 23px)
 }
 
-#dayNightSwitch .onOff .daySwitch .sunMoon .crater {
+#dayNightSwitch .onOff.daySwitch .sunMoon .crater {
     transform: scale(0) !important
 }
 
-#dayNightSwitch .onOff .daySwitch .sunMoon .cloud {
+#dayNightSwitch .onOff.daySwitch .sunMoon .cloud {
     opacity: 1;
     transform: translatex(0);
     transition-delay: .2s;
@@ -3987,7 +3987,7 @@ table#blogCalendar > tbody > tr > td > a {
         width: 95%
     }
 
-    #dayNightSwitch .onOff, #dayNightSwitch .onOff .daySwitch .sky {
+    #dayNightSwitch .onOff, #dayNightSwitch .onOff.daySwitch .sky {
         width: 50px;
         height: 18px;
         border-radius: 18px
@@ -3999,7 +3999,7 @@ table#blogCalendar > tbody > tr > td > a {
         top: 1px
     }
 
-    #dayNightSwitch .onOff .daySwitch .sunMoon {
+    #dayNightSwitch .onOff.daySwitch .sunMoon {
         left: calc(100% - 19px)
     }
 
