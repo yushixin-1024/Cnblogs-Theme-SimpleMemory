@@ -2322,8 +2322,8 @@ div#tbCommentBodyPreview {
     color: #777aaf !important;
     border: 0 !important;
     background-image: linear-gradient(180deg, #fff, #f5f5fa) !important;
-    -webkit-box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
-    box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%)
+    -webkit-box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .2);
+    box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .2)
 }
 
 .menu-button-scroll:before {
@@ -2461,7 +2461,7 @@ div#tbCommentBodyPreview {
             180deg, #fff, #f5f5fa) !important;
     --text-opacity: 1 !important;
     color: #484c7a !important;
-    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 9%), 0 1px 3px 0 rgb(93 100 148 / 6%) !important;
+    box-shadow: 0 4px 11px 0 rgba(37, 44, 97, .9), 0 1px 3px 0 rgba(93, 100, 148, .6) !important;
     margin: 10px 5px 10px 0 !important;
     font-size: 14px;
     font-weight: 400;
@@ -2537,8 +2537,8 @@ div#rightMenu .rightMenuItem {
     border-radius: 50%;
     position: relative;
     display: block;
-    -webkit-box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
-    box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%)
+    -webkit-box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .2);
+    box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .2)
 }
 
 #author_profile {
@@ -2962,8 +2962,8 @@ pre .line-numbers-rows {
 code-box {
     margin: 5px;
     border-radius: 4px;
-    -webkit-box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 6%);
-    box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 6%);
+    -webkit-box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .6);
+    box-shadow: 0 4px 11px -2px rgba(37, 44, 97, .15), 0 1px 3px 0 rgba(93, 100, 148, .6);
 }
 
 .code-hljs-len {
@@ -3517,11 +3517,11 @@ table#blogCalendar > tbody > tr > td > a {
     transition: all .4s ease
 }
 
-#dayNightSwitch .onOff.daySwitch {
+#dayNightSwitch .onOff .daySwitch {
     border: 2px solid #52a6bf
 }
 
-#dayNightSwitch .onOff.daySwitch .sky {
+#dayNightSwitch .onOff .daySwitch .sky {
     width: 65px;
     height: 25px;
     border-radius: 25px;
@@ -3532,17 +3532,17 @@ table#blogCalendar > tbody > tr > td > a {
     animation: none !important
 }
 
-#dayNightSwitch .onOff.daySwitch .sunMoon {
+#dayNightSwitch .onOff .daySwitch .sunMoon {
     background: #ffdf61;
     border: 2px solid #d9b31c;
     left: calc(100% - 23px)
 }
 
-#dayNightSwitch .onOff.daySwitch .sunMoon .crater {
+#dayNightSwitch .onOff .daySwitch .sunMoon .crater {
     transform: scale(0) !important
 }
 
-#dayNightSwitch .onOff.daySwitch .sunMoon .cloud {
+#dayNightSwitch .onOff .daySwitch .sunMoon .cloud {
     opacity: 1;
     transform: translatex(0);
     transition-delay: .2s;
@@ -3987,7 +3987,7 @@ table#blogCalendar > tbody > tr > td > a {
         width: 95%
     }
 
-    #dayNightSwitch .onOff, #dayNightSwitch .onOff.daySwitch .sky {
+    #dayNightSwitch .onOff, #dayNightSwitch .onOff .daySwitch .sky {
         width: 50px;
         height: 18px;
         border-radius: 18px
@@ -3999,7 +3999,7 @@ table#blogCalendar > tbody > tr > td > a {
         top: 1px
     }
 
-    #dayNightSwitch .onOff.daySwitch .sunMoon {
+    #dayNightSwitch .onOff .daySwitch .sunMoon {
         left: calc(100% - 19px)
     }
 

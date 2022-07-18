@@ -508,7 +508,7 @@ body{
 /* 尾部导航 */
 .container .menu-wrap .sidebar-footer {
     background-color: #1d1d1d;
-    box-shadow: 0 -1px 5px rgb(43 43 43 / 50%);
+    box-shadow: 0 -1px 5px rgba(43, 43, 43, .5);
     border-top: 1px solid rgba(255,255,255,.1);
     position: fixed;
     width: 100%;

@@ -71,7 +71,7 @@ export default function main(_) {
             } else { // 日间
                 _.__tools.setCookie(cookieKey, 'day', exp);
                 $(this).addClass('daySwitch');
-                $('head link#baseDarkCss').remove();
+                $('head link#baseDarkCss').prop('disabled', true);
                 dayNightControl(_, 'day');
             }
         });
@@ -83,23 +83,31 @@ export default function main(_) {
      * 第二次及以后使用标签构建文件加载
      */
     function loadDarkCss() {
-        if (_.__status.dayNightCssHref) {
-            $('head').append('<link type="text/css" id="baseDarkCss" rel="stylesheet" href="'+_.__status.dayNightCssHref+'">');
+        // 判断baseDarkCss是否存在
+        let baseDarkCss = $('head link#baseDarkCss');
+        if (baseDarkCss) {
+            // 存在时,设置属性
+            baseDarkCss.prop('disabled', false);
         } else {
-            import(/* webpackChunkName: "dayNight" */ '../../style/base.dark.css');
+            // 不存在时,添加链接
+            if (_.__status.dayNightCssHref) {
+                $('head').append('<link type="text/css" id="baseDarkCss" rel="stylesheet" href="'+_.__status.dayNightCssHref+'">');
+            } else {
+                import(/* webpackChunkName: "dayNight" */ '../../style/base.dark.css');
 
-            setTimeout(function () {
-                let links = $('head link');
-                for (let i = links.length - 1; i > 0; i--) {
-                    let obj  = $(links[i]);
-                    let href = obj.attr('href');
-                    if (/^.*\/dayNight\.[a-z0-9]{8}\.css$/.test(href)) {
-                        _.__status.dayNightCssHref = href;
-                        obj.attr('id', 'baseDarkCss');
-                        break;
+                setTimeout(function () {
+                    let links = $('head link');
+                    for (let i = links.length - 1; i > 0; i--) {
+                        let obj  = $(links[i]);
+                        let href = obj.attr('href');
+                        if (/^.*\/dayNight\.[a-z0-9]{8}\.css$/.test(href)) {
+                            _.__status.dayNightCssHref = href;
+                            obj.attr('id', 'baseDarkCss');
+                            break;
+                        }
                     }
-                }
-            }, 500);
+                }, 500);
+            }
         }
     }
 }

@@ -246,7 +246,7 @@
     padding: 0;
     border: none;
     background: rgb(255, 27, 0);
-    background: linear-gradient(0deg, rgba(255, 27, 0, 1) 0%, rgba(251, 75, 2, 1) 100%);
+    background: linear-gradient(0deg, rgba(255, 27, 0, 1) 0, rgba(251, 75, 2, 1) 100%);
 }
 
 .custom-btn.btn-5:hover {
@@ -287,7 +287,7 @@
 /* 6 */
 .custom-btn.btn-6 {
     background: rgb(247, 150, 192);
-    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0, rgba(118, 174, 241, 1) 100%);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -344,10 +344,10 @@
 .custom-btn.btn-6 span:after {
     position: absolute;
     content: "";
-    box-shadow: -1px -1px 20px 0px rgba(255, 255, 255, 1),
-    -4px -4px 5px 0px rgba(255, 255, 255, 1),
-    7px 7px 20px 0px rgba(0, 0, 0, .4),
-    4px 4px 5px 0px rgba(0, 0, 0, .3);
+    box-shadow: -1px -1px 20px 0 rgba(255, 255, 255, 1),
+    -4px -4px 5px 0 rgba(255, 255, 255, 1),
+    7px 7px 20px 0 rgba(0, 0, 0, .4),
+    4px 4px 5px 0 rgba(0, 0, 0, .3);
 }
 
 .custom-btn.btn-6 span:before {

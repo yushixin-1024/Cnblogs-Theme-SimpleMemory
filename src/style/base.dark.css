@@ -18,11 +18,11 @@ body {
 
 #links-box .links-item {
     background: #2a2a2a;
-    box-shadow: 0 4px 11px 0 rgb(0 0 0/20%),0 1px 3px 0 rgb(0 0 0/20%);
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, .2),0 1px 3px 0 rgba(0, 0, 0, .2);
 }
 
 #links-box .links-item:hover {
-    box-shadow: 0 4px 11px 0 rgb(0 0 0/30%),0 1px 3px 0 rgb(0 0 0/20%);
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, .3),0 1px 3px 0 rgba(0, 0, 0, .2);
 }
 
 #links-box .links-item .links-info .links-info-name {
@@ -37,7 +37,7 @@ body {
     background: #2a2a2a !important;
     border-left: 4px solid #222 !important;
     color: #ddd !important;
-    box-shadow: 0 4px 11px 0 rgb(0 0 0/20%),0 1px 3px 0 rgb(0 0 0/20%)!important;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, .2),0 1px 3px 0 rgba(0, 0, 0, .2)!important;
 }
 
 #div_digg .diggit {
@@ -114,7 +114,7 @@ footer-background {
     background: #2a2a2a !important;
     border-color: #555 !important;
     color: #ddd !important;
-    box-shadow: 0 4px 11px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 20%) !important;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, .2), 0 1px 3px 0 rgba(0, 0, 0, .2) !important;
 }
 
 #articleSuffix .articleSuffix-left img {
@@ -154,8 +154,8 @@ div#rightMenu .rightMenuItem,
 #rtaDirectory .rightMenuSpan::before,
 #rightMenuSite .rightMenuSpan::before
 {
-    -webkit-box-shadow: 0 1px 20px 0 rgba(0,0,0,.5), inset 0 0px 0 0 rgba(0,0,0,.5) !important;
-    box-shadow: 0 1px 20px 0 rgba(0,0,0,.5), inset 0 0px 0 0 rgba(0,0,0,.5) !important;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(0,0,0,.5), inset 0 0 0 0 rgba(0,0,0,.5) !important;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.5), inset 0 0 0 0 rgba(0,0,0,.5) !important;
 }
 
 div#rightMenu .rightMenuItem {
