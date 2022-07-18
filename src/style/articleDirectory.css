@@ -1,12 +1,12 @@
 #articleDirectory {
     position: absolute;
     top: calc(40vh + 5px);
-    right: 70px !important;
-    width: 410px !important;
+    right: 52px !important;
+    width: 325px !important;
     z-index: 1;
     max-height: 55vh;
     overflow: auto;
-    box-shadow: 0 4px 11px -2px rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    box-shadow: 0 4px 11px -2px  rgb(37 44 97 / 15%), 0 1px 3px 0  rgb(93 100 148 / 20%) !important;
     background: rgba(255, 255, 255, .9);
 }
 
