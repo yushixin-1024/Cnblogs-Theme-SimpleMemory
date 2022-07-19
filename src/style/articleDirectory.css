@@ -1,8 +1,8 @@
 #articleDirectory {
     position: absolute;
     top: calc(40vh + 5px);
-    right: 60px !important;
-    width: 400px !important;
+    right: 4% !important;
+    width: 20% !important;
     z-index: 1;
     max-height: 55vh;
     overflow: auto;

@@ -90,7 +90,9 @@ export default function main() {
          * 初始化主体内容位置
          */
         setDomHomePosition: () => {
-            $('#home').css('margin-top', $('.main-header').outerHeight() + 'px');
+            let $home = $('#home');
+            $home.css('margin-top', $('.main-header').outerHeight() + 'px');
+            $home.css('margin-left', '20%');
         },
 
         /**
