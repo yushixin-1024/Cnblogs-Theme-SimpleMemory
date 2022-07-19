@@ -92,7 +92,12 @@ export default function main() {
         setDomHomePosition: () => {
             let $home = $('#home');
             $home.css('margin-top', $('.main-header').outerHeight() + 'px');
-            $home.css('margin-left', '20%');
+            // 访问路径
+            let href = window.location.href;
+            // 文章页面时,主页面左移
+            if ( href.startsWith("https://www.cnblogs.com/yushixin1024/p/") ) {
+                $home.css('margin-left', '20%');
+            }
         },
 
         /**
